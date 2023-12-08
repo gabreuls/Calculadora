@@ -20,7 +20,7 @@ namespace Calculadora2.OperacoesMat
             Console.WriteLine("0 - Sair");
             Console.WriteLine("--------------------------------");
 
-            short opção = short.Parse(Console.ReadLine());
+            short opção = Convert.ToInt16(Console.ReadLine());
 
             switch (opção)
             {
@@ -38,10 +38,10 @@ namespace Calculadora2.OperacoesMat
         Console.Clear();
 
         Console.WriteLine("Insira um número: ");
-        float valor1 = float.Parse(Console.ReadLine());
+        float valor1 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Insira um segundo número: ");
-        float valor2 = float.Parse(Console.ReadLine());
+        float valor2 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine($"O resultado da soma é {valor1 + valor2}");
 
@@ -53,10 +53,10 @@ namespace Calculadora2.OperacoesMat
         Console.Clear();
 
         Console.WriteLine("Insira um número: ");
-        float valor1 = float.Parse(Console.ReadLine());
+        float valor1 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Insira um segundo número: ");
-        float valor2 = float.Parse(Console.ReadLine());
+        float valor2 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine($"O resultado da subtração é {valor1 - valor2}");
 
@@ -69,10 +69,10 @@ namespace Calculadora2.OperacoesMat
         Console.Clear();
 
         Console.WriteLine("Insira um número: ");
-        float valor1 = float.Parse(Console.ReadLine());
+        float valor1 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Insira um segundo número: ");
-        float valor2 = float.Parse(Console.ReadLine());
+        float valor2 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine($"O resultado da multiplicação é {valor1 * valor2}");
 
@@ -85,10 +85,10 @@ namespace Calculadora2.OperacoesMat
         Console.Clear();
 
         Console.WriteLine("Insira um número: ");
-        float valor1 = float.Parse(Console.ReadLine());
+        float valor1 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Insira um segundo número: ");
-        float valor2 = float.Parse(Console.ReadLine());
+        float valor2 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine($"O resultado da divisão é {valor1 / valor2}");
 
@@ -101,10 +101,10 @@ namespace Calculadora2.OperacoesMat
             Console.Clear();
 
             Console.WriteLine("Digite o primeiro número:");
-            float valor1 = float.Parse(Console.ReadLine());
+            float valor1 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Digite o segundo número:");
-            float valor2 = float.Parse(Console.ReadLine());
+            float valor2 = Convert.ToInt32(Console.ReadLine());
 
             float resultado = (valor1 + valor2) / 2;
 
