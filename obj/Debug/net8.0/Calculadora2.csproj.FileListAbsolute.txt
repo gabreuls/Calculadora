@@ -12,3 +12,4 @@ C:\dev\AppsCSharp\Calculadora2\obj\Debug\net8.0\refint\Calculadora2.dll
 C:\dev\AppsCSharp\Calculadora2\obj\Debug\net8.0\Calculadora2.pdb
 C:\dev\AppsCSharp\Calculadora2\obj\Debug\net8.0\Calculadora2.genruntimeconfig.cache
 C:\dev\AppsCSharp\Calculadora2\obj\Debug\net8.0\ref\Calculadora2.dll
+C:\dev\AppsCSharp\Calculadora2\obj\Debug\net8.0\Calculadora2.sourcelink.json

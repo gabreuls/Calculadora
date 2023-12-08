@@ -16,8 +16,9 @@ namespace Calculadora2.OperacoesMat
             Console.WriteLine("2 - Subtração");
             Console.WriteLine("3 - Multiplicação");
             Console.WriteLine("4 - Divisão");
+            Console.WriteLine("5 - Média");
             Console.WriteLine("0 - Sair");
-            Console.WriteLine("-------------");
+            Console.WriteLine("--------------------------------");
 
             short opção = short.Parse(Console.ReadLine());
 
@@ -27,6 +28,7 @@ namespace Calculadora2.OperacoesMat
                 case 2: Subtracao(); break;
                 case 3: Multiplicacao(); break;
                 case 4: Divisao(); break;
+                case 5: Média(); break;
                 case 0: Environment.Exit(0); break;
                 default: Menu(); break;
             }
@@ -92,6 +94,24 @@ namespace Calculadora2.OperacoesMat
 
         Console.ReadKey();
         Menu();
+        }
+
+        static void Média()
+        {
+            Console.Clear();
+
+            Console.WriteLine("Digite o primeiro número:");
+            float valor1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o segundo número:");
+            float valor2 = float.Parse(Console.ReadLine());
+
+            float resultado = (valor1 + valor2) / 2;
+
+            Console.WriteLine($"A média entre esses números é {resultado}.");
+
+            Console.ReadKey();
+            Menu();
         }
     }
 }
